@@ -57,7 +57,8 @@ except URLError as e:
      my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
      my_data_rows = get_fruit_load_list()
      streamlit.dataframe(my_data_rows)
-  
+  else:
+    streamlit.button('Get Fruit Load List')
 
 #new section to display fruityvice api response
 #streamlit.header('Fruityvice Fruit Advice!')
