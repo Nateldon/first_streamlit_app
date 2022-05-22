@@ -55,7 +55,7 @@ try:
 
                  
 #import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 
 
 #take the json version of the response and normalize it
