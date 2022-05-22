@@ -55,7 +55,7 @@ streamlit.write ('The user entered ', fruit_choice)
 
                  
 #import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 
 
 #take the json version of the response and normalize it
@@ -97,6 +97,6 @@ streamlit.write ('Thanks for adding', add_my_fruit)
 
 
 # This will not work correctly, but just go with it for now
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+#my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 
